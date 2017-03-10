@@ -1,0 +1,15 @@
+{
+  "name": "babbel",
+  "version": "1.0.0",
+  "description": "Eerste stap met babbel",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "author": "Yanick007",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.1.11"
+  }
+}
